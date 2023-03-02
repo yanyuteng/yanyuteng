@@ -8,7 +8,7 @@ Now, I am passionate about using big data and micro agent-based models to help t
 
 Github Info:
 
-[![Yan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yanyuteng)](https://github.com/yanyuteng/github-readme-stats)
+[![Yan's GitHub Stats](https://blog-count.vercel.app/api?username=yanyuteng)](https://github.com/yanyuteng/BlogCount)
 
 <img align='right' src="https://komarev.com/ghpvc/?username=yanyuteng&color=gray" width="150">
 
