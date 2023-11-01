@@ -1,4 +1,4 @@
-[![Hello](https://readme-typing-svg.demolab.com?font=Didact+Gothic&size=36&pause=1000&color=1C2B2F&width=435&lines=Hello!+I'm+Yuteng.+)](https://git.io/typing-svg)
+[![Hello](https://readme-typing-svg.demolab.com?font=Didact+Gothic&size=36&pause=1000&color=1C2B2F&width=435&lines=Hello!+I'm+Yu-Teng.+)](https://git.io/typing-svg)
 
 A Ph.D. candidate at Renmin University of China. My main reaserch interests are about Health Research, Family Research and Social Research Methods. 
 
