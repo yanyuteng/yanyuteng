@@ -1,8 +1,8 @@
-[![Hello](https://readme-typing-svg.demolab.com?font=Didact+Gothic&size=36&pause=1000&color=1C2B2F&width=435&lines=Hello!+I'm+Yu-Teng.+)](https://git.io/typing-svg)
+[![Hi](https://readme-typing-svg.demolab.com?font=Didact+Gothic&size=36&pause=1000&color=1C2B2F&width=435&lines=Hi!+This+is+Yu-Teng.+)](https://git.io/typing-svg)
 
 A Ph.D. candidate at Renmin University of China. My main reaserch interests are about Health Research, Family Research and Social Research Methods. 
 
-Now, I am passionate about using big data and micro agent-based models to help the public to better understand the human condition and advance social equity.
+Now, I am dedicated to leveraging big data and micro simulation models to enhance public comprehension of the human condition and promote social equity.
 
 
 
