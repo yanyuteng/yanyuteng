@@ -5,10 +5,9 @@ A Ph.D. candidate at Renmin University of China. My main research interests are 
 Now, I am dedicated to leveraging big data and micro simulation models to enhance public comprehension of the human condition and promote social equity.
 
 
-
 Github Info:
 
-[![Yan's GitHub Stats](https://blog-count.vercel.app/api?username=yanyuteng)](https://github.com/yanyuteng/BlogCount)
+[![Yan's GitHub Stats](https://blog-count.vercel.app/api?username=yanyuteng)](https://github.com/yanyuteng/Blog_Count)
 
 <img align='right' src="https://komarev.com/ghpvc/?username=yanyuteng&color=gray" width="150">
 
