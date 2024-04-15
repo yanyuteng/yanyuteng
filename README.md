@@ -7,7 +7,7 @@ Now, I am dedicated to leveraging big data and micro simulation models to enhanc
 
 Github Info:
 
-[![Yan's GitHub Stats](https://blog-count.vercel.app/api?username=yanyuteng)](https://github.com/yanyuteng/Blog_Count)
+![Yan's GitHub Stats](https://blog-count.vercel.app/api?username=yanyuteng&theme=graywhite&hide=contribs,prs)
 
 <img align='right' src="https://komarev.com/ghpvc/?username=yanyuteng&color=gray" width="150">
 
