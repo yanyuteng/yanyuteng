@@ -1,26 +1,31 @@
 @font-face {
   font-family: hack-regular;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-Regular.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/yanyuteng/Blog_CV_CDN@latest/font/Hack-Regular.ttf");
 }
 @font-face {
   font-family: hack-italic;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-Italic.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/yanyuteng/Blog_CV_CDN@latest/font/Hack-Italic.ttf");
 }
 @font-face {
   font-family: hack-bold;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-Bold.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/yanyuteng/Blog_CV_CDN@latest/font/Hack-Bold.ttf");
 }
 @font-face {
   font-family: hack-bolditalic;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Hack-BoldItalic.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/yanyuteng/Blog_CV_CDN@latest/font/Hack-BoldItalic.ttf");
 }
 @font-face {
   font-family: Gothic;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/GOTHIC.TTF");
+  src: url("https://cdn.jsdelivr.net/gh/yanyuteng/Blog_CV_CDN@latest/font/Gothic.ttf");
 }
 @font-face {
   font-family: Merriweather;
-  src: url("https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/font/Merriweather-Regular-9.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/yanyuteng/Blog_CV_CDN@latest/font/Merriweather-Regular-9.ttf");
+}
+@font-face {
+  font-family: KingHwa_OldSong;
+  src: url("https://cdn.jsdelivr.net/gh/yanyuteng/Blog_CV_CDN@latest/font/KingHwa_OldSong_v1007.ttf");
+  unicode-range: U+1f1e9-1f1f5;
 }
 * {
   padding: 0;
@@ -74,29 +79,28 @@ span {
   float: left;
   margin-right: 30px;
   font-size: 0.9em;
-  color: #898FA0;
+  color: #898FA0; /* 使用最初的文本颜色 */
   position: relative;
   transition: all 0.3s;
 }
-.menu-li:hover {
-  color: #333333;
-}
-.active-link li {
+.menu-li {
   position: relative;
-  color: #333333;
 }
-.active-link li:after {
+.menu-li::after {
   content: "";
   position: absolute;
-  top: 100%;
   left: 0;
-  right: 0;
-  bottom: -0.2em;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
   transition: all 0.3s;
-  background-color: #1A98FF;
+  transform: scaleX(0);
+  transform-origin: left;
 }
-.active-link li:hover:after {
-  right: 50%;
+.menu-li:hover::after {
+  background-color: #1A98FF;
+  transform: scaleX(1);
 }
 #sort {
   cursor: pointer;
@@ -141,14 +145,14 @@ span {
   width: 80%;
 }
 .intro-title {
-  font-family: Gothic;
+  font-family: KingHwa_OldSong /*Gothic*/;
   font-size: 4.5em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
 }
 .intro-sub {
-  font-family: Gothic;
+  font-family: KingHwa_OldSong;
   margin-top: 30px;
   font-size: 1.2em;
   line-height: 1.8em;
