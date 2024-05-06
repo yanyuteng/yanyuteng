@@ -145,14 +145,14 @@ span {
   width: 80%;
 }
 .intro-title {
-  font-family: KingHwa_OldSong /*Gothic*/;
+  font-family: Gothic /*KingHwa_OldSong*/;
   font-size: 4.5em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
 }
 .intro-sub {
-  font-family: KingHwa_OldSong;
+  font-family: Gothic;
   margin-top: 30px;
   font-size: 1.2em;
   line-height: 1.8em;
