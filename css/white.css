@@ -860,6 +860,7 @@ li p {
   top: 0;
   left: 0;
   display: none;
+/*控制移动设备上的菜单样式，包括它们的排列、间距和字体大小等*/
 }
 #mobile-main .mobile-menu-div {
   margin-top: 20px;
