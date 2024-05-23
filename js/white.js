@@ -1,4 +1,3 @@
-
 //下面这一段全部来自于hexo-theme-nexmoe的部分源码，感谢大佬，指路: https://github.com/theme-nexmoe/hexo-theme-nexmoe
 const getRealPath = (pathname, desc = false) => {
     if (!pathname) {
@@ -31,13 +30,14 @@ for (let link of links) {
     link.className = "active-link nav-link";
   }
 }
+
 // mobile-nav-link
 let mlinks = document.querySelectorAll(".mobile-nav-link");
 let mrootRealPath = getRealPath(window.location.pathname, true);
 for (let mlink of mlinks) {
   let mlinkPath = mlink.getAttribute("href");
   if (mlinkPath && getRealPath(mlinkPath, true) === mrootRealPath) {
-    mlink.className = "moibile-active-link mobile-nav-link";
+    mlink.classList.add("mobile-active-link");
   }
 }
 

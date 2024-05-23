@@ -31,15 +31,31 @@ for (let link of links) {
     link.className = "active-link nav-link";
   }
 }
+// 假设新的函数名称为normalizePath
+function normalizePath(path, removeIndex) {
+  // 实现路径规范化的逻辑
+  if (removeIndex) {
+    path = path.replace(/index\.html$/, '');
+  }
+  return path.replace(/\/$/, ''); // 移除结尾的斜杠
+}
+
 // mobile-nav-link
 let mlinks = document.querySelectorAll(".mobile-nav-link");
-let mrootRealPath = getRealPath(window.location.pathname, true);
+let mrootRealPath = normalizePath(window.location.pathname, true);
+
 for (let mlink of mlinks) {
   let mlinkPath = mlink.getAttribute("href");
-  if (mlinkPath && getRealPath(mlinkPath, true) === mrootRealPath) {
-    mlink.className = "moibile-active-link mobile-nav-link";
+  if (mlinkPath) {
+    let mlinkRealPath = normalizePath(mlinkPath, true);
+    if (mlinkRealPath === mrootRealPath) {
+      mlink.classList.add("mobile-active-link");
+    } else {
+      mlink.classList.remove("mobile-active-link");
+    }
   }
 }
+
 
 //设置收起的menu点击的效果
 var mmenu =document.getElementById("mobile-menu");
