@@ -70,17 +70,18 @@ span {
 }
 .menu-ul {
   list-style: none;
+  display: flex; /* 确保列表项水平排列 */
+  flex-direction: row; /* 确保在所有浏览器中水平排列 */
+  padding: 0;
+  margin: 0;
 }
 .menu-li {
-  float: left;
   margin-right: 20px;
   font-size: 0.9em;
   color: #898FA0 /*grey*/;
   position: relative;
   transition: all 0.3s;
-}
-.menu-li {
-  position: relative;
+  display: flex; /* 这里是safri中文横排的关键 */
 }
 .menu-li::after {
   content: "";
@@ -95,7 +96,7 @@ span {
   transform-origin: left;
 }
 .menu-li:hover::after {
-  background-color: #990000 /*blue*/;
+  background-color: #990000 /*blue*/; /* 使用外部定义的颜色变量 */
   transform: scaleX(1);
 }
 #sort {
