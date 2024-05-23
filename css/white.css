@@ -73,7 +73,7 @@ span {
 }
 .menu-li {
   float: left;
-  margin-right: 30px;
+  margin-right: 20px;
   font-size: 0.9em;
   color: #898FA0;
   position: relative;
@@ -146,23 +146,31 @@ span {
   height: 1px;
   background-color: #ccc;
 }
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px; /* 调整右侧内边距 */
+}
 .intro-content {
-  margin-top: 150px;
-  width: 80%;
+  flex: 1;
+  padding-right: 10px; /* 调整右侧内边距 */
+  margin-top: 100px;
+  width: 100%;
 }
 .intro-title {
-  font-family: KingHwa_OldSong /*"Noto Serif SC", serif;*/ /*Gothic*/;
+  font-family: KingHwa_OldSong; /*"Noto Serif SC", serif;*/
+/*Gothic*/
   font-size: 3em;
-  font-weight: 1000;
-  margin: 0;
-  padding: 0;
+  font-weight: 800;
+  margin: 0px;
 }
 .intro-sub {
   font-family: KingHwa_OldSong;
   margin-top: 30px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.8em;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 .intro-sub a {
   display: inline-block;
@@ -183,16 +191,27 @@ span {
   right: 50%;
 }
 .intro-contact {
-  margin-top: 10px;
-  font-size: 1.5em;
+  margin-top: 30px;
+  font-size: 1.4em;
   line-height: 1.8em;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 .intro-content,
 a {
   color: #2e2e2e;
   text-decoration: none;
   margin-right: 3px;
+}
+.intro-image {
+  flex: 1; /* 不显示为0 */
+  text-align: right;
+  padding-top: 100px;
+  padding-right: 0px; /* 调整左侧内边距 */
+}
+.intro-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20%; /* 如果你想要不同形状图片 */
 }
 .archive-outer {
   display: flex;
@@ -861,17 +880,16 @@ li p {
   top: 0;
   left: 0;
   display: none;
-/*控制移动设备上的菜单样式，包括它们的排列、间距和字体大小等*/
 }
-#mobile-main .mobile-menu-div {
+.mobile-menu-div {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-#mobile-main .mobile-menu-div .mobile-menu-child {
+.mobile-menu-child {
   margin-top: 50px;
-  font-size: 2.2em;
+  font-size: 1.6em;
   font-weight: 1000;
   font-family: KingHwa_OldSong;
 }
@@ -880,21 +898,70 @@ li p {
   justify-content: space-between;
   padding: 40px 40px;
 }
-.mobile-menu-inner .mobile-menu-site-name {
+.mobile-menu-site-name {
   font-size: 1.5em;
   font-weight: 1000;
 }
-.mobile-menu-inner .mobile-menu-group {
+.mobile-menu-group {
   font-size: 2em;
   cursor: pointer;
 }
-.moibile-active-link span {
+.mobile-active-link span {
   box-shadow: inset 0 -0.2em 0 #990000;
 }
 #mobile-menu {
   display: none;
   cursor: pointer;
   font-size: 1.7em;
+}
+@media (min-width: 1024px) {
+  .intro-content {
+    width: 50%;
+    padding-right: 20px;
+  }
+  .intro-image {
+    width: 50%;
+    padding-left: 20px;
+  }
+  .intro-title {
+    font-size: 3em; /* 缩小PC端字体 */
+  }
+  .intro-sub {
+    font-size: 1.3em; /* 缩小PC端字体 */
+  }
+  .intro-image img {
+    max-width: 60%; /* 缩小PC端图片 */
+  }
+}
+@media (min-width: 820px) and (max-width: 1023px) {
+  .intro-content {
+    width: 50%;
+    padding-right: 15px;
+  }
+  .intro-image {
+    width: 50%;
+    padding-left: 15px;
+  }
+  .intro-title {
+    font-size: 2.5em; /* 调整中等屏幕字体 */
+  }
+  .intro-sub {
+    font-size: 1.3em; /* 调整中等屏幕字体 */
+  }
+  .intro-image img {
+    max-width: 70%; /* 调整中等屏幕图片 */
+  }
+}
+@media (max-width: 819px) {
+  .intro-title {
+    font-size: 2.4em; /* 保持移动端字体 */
+  }
+  .intro-sub {
+    font-size: 1.2em; /* 保持移动端字体 */
+  }
+  .intro-image img {
+    max-width: 75%; /* 保持移动端图片 */
+  }
 }
 @media screen and (max-width: 1000px) {
   .menu-site-name {
@@ -909,11 +976,11 @@ li p {
   .post-content-inner {
     justify-content: center;
   }
-  .post-content-inner .post-content-main {
+  .post-content-main {
     flex-basis: 730px;
     max-width: 730px;
   }
-  .post-content-inner .post-content-inner-space {
+  .post-content-inner-space {
     display: none;
   }
   .img-show-inner {
@@ -938,7 +1005,7 @@ li p {
   .img-show-inner {
     flex-direction: column;
   }
-  .img-show-inner .img-show-post {
+  .img-show-post {
     margin-left: 30px;
     margin-right: 30px;
   }
