@@ -29,27 +29,6 @@
   src: url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot"); /* IE9 Compat Modes */
   src: local('Alegreya'), local('Alegreya-Normal'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot?#iefix") format('embedded-opentype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff2") format('woff2'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff") format('woff'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.ttf") format('truetype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.svg#Alegreya") format('svg'); /* Legacy iOS */
 }
-@font-face {
-  font-family: 'Alegreya';
-  font-style: normal;
-  font-weight: regular;
-  src: url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot"); /* IE9 Compat Modes */
-  src: local('Alegreya'), local('Alegreya-Normal'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot?#iefix") format('embedded-opentype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff2") format('woff2'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff") format('woff'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.ttf") format('truetype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.svg#Alegreya") format('svg'); /* Legacy iOS */
-}
-@font-face {
-  font-family: 'Alegreya';
-  font-style: normal;
-  font-weight: regular;
-  src: url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot"); /* IE9 Compat Modes */
-  src: local('Alegreya'), local('Alegreya-Normal'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot?#iefix") format('embedded-opentype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff2") format('woff2'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff") format('woff'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.ttf") format('truetype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.svg#Alegreya") format('svg'); /* Legacy iOS */
-}
-@font-face {
-  font-family: 'Alegreya';
-  font-style: normal;
-  font-weight: regular;
-  src: url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot"); /* IE9 Compat Modes */
-  src: local('Alegreya'), local('Alegreya-Normal'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.eot?#iefix") format('embedded-opentype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff2") format('woff2'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.woff") format('woff'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.ttf") format('truetype'), url("//lib.baomitu.com/fonts/alegreya/alegreya-regular.svg#Alegreya") format('svg'); /* Legacy iOS */
-}
 * {
   padding: 0;
   margin: 0;
