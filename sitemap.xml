@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yanyuteng.cn/biography/index.html</loc>
+    
+    <lastmod>2025-02-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanyuteng.cn/research/index.html</loc>
+    
+    <lastmod>2025-02-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanyuteng.cn/2025/01/23/R_Gender%20Differences%20in%20Quality%20of%20Dying%20and%20Death%20among%20Older%20Adults/</loc>
     
     <lastmod>2025-02-02</lastmod>
@@ -55,28 +73,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://yanyuteng.cn/research/index.html</loc>
-    
-    <lastmod>2025-01-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanyuteng.cn/biography/index.html</loc>
-    
-    <lastmod>2024-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://yanyuteng.cn/</loc>
-    <lastmod>2025-02-02</lastmod>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -86,7 +86,7 @@
   
   <url>
     <loc>https://yanyuteng.cn/categories/Review/</loc>
-    <lastmod>2025-02-02</lastmod>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
