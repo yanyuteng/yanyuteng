@@ -337,6 +337,11 @@ a {
 .gitalk-saysay > #gitalk-container .gt-counts {
   display: none;
 }
+@media screen and (max-width: 768px) {
+  .intro-image {
+    display: none;
+  }
+}
 .img-show-inner {
   margin-top: 50px;
   display: flex;
