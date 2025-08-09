@@ -1,7 +1,7 @@
 [![Hi](https://readme-typing-svg.demolab.com?font=Didact+Gothic&size=36&pause=1000&color=1C2B2F&width=435&lines=Hi!+This+is+Yu-Teng.+)](https://git.io/typing-svg)
 
-A Ph.D. candidate at Renmin University of China. My main research interests are about Health Research, Family Research and Social Research Methods. 
+As a faculty member in the Department of Sociology at Fuzhou University, my research centers on health, family, and methodological studies of society. 
 
-Now, I am dedicated to leveraging big data and micro simulation models to enhance public comprehension of the human condition and promote social equity.
+I employ diverse analytical strategies—such as mathematical decomposition, microsimulation, and big data analysis—to explore social inequality.
 
 <img align='right' src="https://komarev.com/ghpvc/?username=yanyuteng&color=gray" width="150">
