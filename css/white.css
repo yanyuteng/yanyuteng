@@ -223,6 +223,20 @@ a {
   border-radius: 20%; /* 如果你想要不同形状图片 */
   margin-top: 0px;
 }
+.intro-icp {
+  font-family: alegreya, Hangeuljaemin4; /*"Noto Serif SC", serif;*/
+/*Gothic*/
+  font-size: 14px; /* 字体大小 */
+  color: #888; /* 字体颜色（灰色） */
+  margin-top: 10px; /* 和上方社交图标留点距离 */
+}
+.intro-icp a {
+  color: inherit; /* 链接颜色跟随父元素 */
+  text-decoration: none; /* 去掉下划线 */
+}
+.intro-icp a:hover {
+  text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
 .archive-outer {
   display: flex;
   justify-content: center;
